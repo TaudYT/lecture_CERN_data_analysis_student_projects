@@ -49,6 +49,21 @@ This feature finds similar users and predicts what movies you'd rate highly base
 - scikit-learn (cosine similarity calculations)
 - MovieLens dataset
 
+## Installation
+
+Before running the program, you need to install the required Python libraries:
+
+```bash
+pip install pandas numpy scikit-learn
+```
+
+If you're using pip3:
+```bash
+pip3 install pandas numpy scikit-learn
+```
+
+Make sure you also have the MovieLens dataset files (`movies.csv` and `ratings.csv`) in the same directory as your script.
+
 ## How the Algorithm Works
 
 ### User-Movie Matrix Construction
